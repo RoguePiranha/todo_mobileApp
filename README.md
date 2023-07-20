@@ -20,7 +20,6 @@ Flutter, a UI toolkit from Google, is used to build natively compiled applicatio
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Flutter Documentation](https://flutter.dev/docs)
 * [Dart Documentation](https://dart.dev/guides)
 * [Google Flutter Walkthrough](https://developers.google.com/learn/topics/flutter)
@@ -28,7 +27,6 @@ Flutter, a UI toolkit from Google, is used to build natively compiled applicatio
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * In the future, I will add the ability to categorize tasks into separate folders or tabs
 * I will also implement notifications for when tasks are due
 * Finally, I would like to have the program be able to sync across multiple devices
