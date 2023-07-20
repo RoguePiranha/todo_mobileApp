@@ -36,7 +36,7 @@ class _TodoScreenState extends State<TodoScreen> {
               });
             },
             child: ListTile(
-              title: Text(tasks[index].name),  // tasks[index].name instead of tasks[index]
+              title: Text(tasks[index].name),
               trailing: Checkbox(
                 value: tasks[index].isDone,
                 onChanged: (bool? value) {
@@ -54,10 +54,10 @@ class _TodoScreenState extends State<TodoScreen> {
                       content: NewTaskDialog(
                         onSubmit: (value) {
                           setState(() {
-                            tasks[index].name = value;  // tasks[index].name instead of tasks[index]
+                            tasks[index].name = value;
                           });
                         },
-                        controller: TextEditingController(text: tasks[index].name),  // tasks[index].name instead of tasks[index]
+                        controller: TextEditingController(text: tasks[index].name),
                       ),
                     );
                   },
